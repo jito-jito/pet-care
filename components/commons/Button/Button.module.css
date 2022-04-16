@@ -1,0 +1,15 @@
+.button {
+  min-width: 175px;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: blueviolet;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.button:hover {
+  cursor: pointer;
+}

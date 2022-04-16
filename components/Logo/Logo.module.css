@@ -1,0 +1,9 @@
+.logo > h1 {
+  margin: 0;
+  font-weight: 800;
+  color: #FF7852;
+}
+.logo > h1 > span {
+  color: #8FC638;
+}
+

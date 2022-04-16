@@ -1,0 +1,51 @@
+.serviceItem {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+  font-family: 'Nunito', sans-serif;
+
+}
+.serviceItem_image {
+  margin: 0;
+  
+}
+.serviceItem_description {
+  margin: 0;
+  font-weight: 700;
+}
+
+
+
+@media screen and (min-width: 600px) {
+  .serviceItem {
+    width: 180px;
+    margin: 25px 15px;
+  }
+  
+}
+
+@media screen and (min-width: 700px) {
+  .serviceItem {
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .serviceItem_image {
+    /* margin-right: 15px; */
+    width: 25px;
+    /* height: 25px; */
+  }
+
+  .serviceItem_description {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .serviceItem_image {
+    width: 18px;
+  }
+  
+}
+

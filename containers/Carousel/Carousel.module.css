@@ -1,0 +1,38 @@
+.carousel {
+  padding: 15px 0 50px 0;
+  background-color: #FFECE4;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.carousel_desecriptionContainer {
+  margin: 25px 0 35px 0;
+}
+
+.carousel_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.carousel_container > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+@media screen and (min-width: 1150px) {
+  .carousel {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .carousel_container {
+    justify-content: center;
+
+  }
+  
+}

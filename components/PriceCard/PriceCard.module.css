@@ -1,0 +1,30 @@
+.priceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  min-width: 280px;
+  /* margin-right: 20px; */
+  padding: 30px 0;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0px 15px 40px rgb(217 200 193 / 30%);
+      
+}
+
+.priceCard_price {
+  margin: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FF7751;
+}
+
+.priceCard_price > span {
+  font-size: 1rem;
+}
+
+.priceCard_button {
+  margin: 15px 0 10px 0;
+  /* background-color: #FF7852; */
+  background: linear-gradient(180deg, #FFA992 0%, #FF7852 100%);
+}

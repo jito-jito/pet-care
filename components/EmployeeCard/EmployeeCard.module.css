@@ -1,0 +1,31 @@
+.employeeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  min-height: 350px;
+  margin-right: 20px;
+  padding: 35px;
+  background: white;
+  border-radius: 130px;
+}
+
+.employeeCard > figure {
+  flex-grow: .5;
+  margin: 0;
+}
+
+.employeeCard > div {
+  flex-grow: 1;
+}
+
+.employeeCard_name {
+  margin: 0;
+}
+
+.employeeCard_position {
+  margin: 0;
+  font-weight: 700;
+  color: #FF7751;
+}
+    

@@ -1,0 +1,21 @@
+.focus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.focus_container {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  filter: blur(55px);
+  background: #fb9164;
+}
+
+@media screen and (max-width: 1300px) {
+  .focus_image{
+    width: 288px;
+    height: 270px;
+  }
+  
+}

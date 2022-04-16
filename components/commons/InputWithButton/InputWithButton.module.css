@@ -1,0 +1,45 @@
+.input {
+  width: 85%;
+  height: 30px;
+  margin: 0 0 10px 0;
+  border-radius: 15px;
+  border: 1px solid #00000026;
+}
+.input::placeholder {
+  text-align: center;
+}
+
+.button {
+  background: linear-gradient(180deg, #FFA992 0%, #FF7852 100%);
+}
+
+@media screen and (min-width: 650px) {
+  .container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 5px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    border-radius: 30px;
+  }
+
+  .input {
+    height: 45px;
+    margin: 0;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+  .input::placeholder {
+    text-align: left;
+   
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .button {
+    max-width: 130px;
+  }
+}

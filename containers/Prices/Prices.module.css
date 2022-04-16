@@ -1,0 +1,52 @@
+.prices {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: auto;
+  margin: 5px 0;
+  
+}
+
+.priceCard_description {
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.priceCard_firstCard {
+  position: relative;
+  left: 15px;
+  z-index: 10;
+}
+
+.priceCard_mainCard {
+  position: relative;
+  z-index: 50;
+  color: white;
+  background: linear-gradient(180DEG, #FFA992 0%, #FF7852 65%);
+}
+
+.priceCard_mainCard > h3{
+  color: white;
+}
+
+.priceCard_mainCard > p{
+  color: white;
+}
+
+.priceCard_mainCard > button{
+  background: white;
+  color: #FF7852;
+}
+
+.priceCard_lastCard {
+  position: relative;
+  right: 15px;
+  z-index: 10;
+}
+
+
+@media screen and (min-width:1000px) {
+  .prices {
+    justify-content: center;
+  }
+}
