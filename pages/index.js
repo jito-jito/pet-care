@@ -23,6 +23,9 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"/>
+        <meta property="og:title" content="Pet Care App" />
+        <meta property="og:description" content="A WebSite of pets" />
+        <meta property="og:image" content="../assets/images/PetCareLanding.png" />
       </Head>
       <Header>
         <Logo/>
