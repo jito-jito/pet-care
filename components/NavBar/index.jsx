@@ -5,10 +5,15 @@ import Image from "next/image";
 
 
 function NavBar() {
-  const [toggleMenu, setToggleMenu] = useState(false)
+  const [toggleMenu, setToggleMenu] = useState(undefined)
 
   const openMenu = () => {
-    setToggleMenu(prev => !prev)
+    if(toggleMenu === undefined) {
+      setToggleMenu(true)
+    } else {
+      setToggleMenu(prev => !prev)
+    }
+    
   }
   
   return(
@@ -23,7 +28,7 @@ function NavBar() {
         <ul 
           className={`${styles.navBar}`}
         >
-          {toggleMenu === true &&
+          {(toggleMenu === true || toggleMenu === undefined) &&
             <>
               <li className={styles.navBar_item}>
                 <a href="#">start</a>
