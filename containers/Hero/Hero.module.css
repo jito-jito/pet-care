@@ -16,10 +16,7 @@
 .hero_title {
   margin: 0;
   font-size: 2rem;
-
-}
-
-.hero_container {
+  font-weight: 900;
 
 }
 
@@ -66,7 +63,6 @@
   }
 
   .hero_title {
-    font-weight: 900;
     text-align: left;
   
   }
@@ -90,11 +86,25 @@
 
   }
 
+  .hero_title {
+    margin: 0;
+    font-size: 2.5rem;
+  
+  }
+
   .hero_image {
     width: 370px;
     height: 360px;
   }
   
+}
+
+@media screen and (min-width: 1150px) {
+  .hero_title {
+    font-size: 3rem;
+  
+  }
+
 }
 
 @media screen and (min-width: 1300px) {
@@ -105,7 +115,6 @@
   .hero_container {
     padding: 0 80px 0 0;
   }
-
 }
 
 

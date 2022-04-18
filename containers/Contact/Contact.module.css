@@ -8,6 +8,7 @@
 }
 
 .contact_image {
+  position: relative;
   margin: 15px;
   width: 215px;
   height: 205px;
@@ -55,6 +56,15 @@
 @media screen and (min-width: 1200px) {
   .contact {
     max-width: 1150px;
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+  .contact_image{
+    margin: 0 50px 0 30px;
+    width: 280px;
+    height: 260px;
   }
   
 }

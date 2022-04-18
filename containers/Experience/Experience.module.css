@@ -76,8 +76,10 @@
   }
 
   .experience_image {
+    margin-right: 25px;
     width: 360px;
     height: 370px;
   }
   
 }
+

@@ -8,7 +8,6 @@ function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   const openMenu = () => {
-    console.log('toogle menu')
     setToggleMenu(prev => !prev)
   }
   
@@ -22,22 +21,24 @@ function NavBar() {
             <Image src={menuIcon}/>
         </div>
         <ul 
-          id={`${toggleMenu ? 'open' : 'close'}`}
           className={`${styles.navBar}`}
         >
-          <li className={styles.navBar_item}>
-            <a href="">start</a>
-          </li>
-          <li className={styles.navBar_item}>
-            <a href="">services</a>
-          </li>
-          <li className={styles.navBar_item}>
-            <a href="">about</a>
-          </li>
-          <li className={styles.navBar_item}>
-            <a href="">contact</a>
-          </li>
-      
+          {toggleMenu === true &&
+            <>
+              <li className={styles.navBar_item}>
+                <a href="#">start</a>
+              </li>
+              <li className={styles.navBar_item}>
+                <a href="#">services</a>
+              </li>
+              <li className={styles.navBar_item}>
+                <a href="#">about</a>
+              </li>
+              <li className={styles.navBar_item}>
+                <a href="#">contact</a>
+              </li>
+            </>
+          }
         </ul>
       </nav>
     </>

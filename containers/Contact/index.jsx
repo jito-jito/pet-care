@@ -14,6 +14,7 @@ function Prices({
     <>
       <article className={styles.contact}>
         <ImageWithFocus
+          layout="fill"
           className={styles.contact_image}
           url={dog}
         />
