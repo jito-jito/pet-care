@@ -25,7 +25,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"/>
         <meta property="og:title" content="Pet Care App" />
         <meta property="og:description" content="A WebSite of pets" />
-        <meta property="og:image" content="../assets/images/PetCareLanding.png" />
+        <meta property="og:image" content="/PetCareLanding.png" />
       </Head>
       <Header>
         <Logo/>
